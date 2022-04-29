@@ -1,0 +1,13 @@
+python -m venv env
+cd env/Scripts then ./activate
+pip install pymongo==3.12.1
+pip install pyjwt
+pip install jwt
+pip install tensorflow
+pip install keras
+pip install sklearn
+pip install pandas
+pip install djongo
+pip install djongoframework
+pip install django-cors-headers
+pip install django

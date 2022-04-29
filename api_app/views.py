@@ -1,19 +1,9 @@
-import email
-from hashlib import algorithms_guaranteed
-from lib2to3.pgen2 import token
-from logging import raiseExceptions
-from turtle import reset
-from unittest import result
-from urllib import response
-from cv2 import randShuffle
 from django.shortcuts import render
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-import json
 import pymongo
 from bson.json_util import dumps
 from rest_framework.views import APIView
-from rest_framework.permissions import AllowAny
 from api_app.models import User
 from api_app.serializers import UserSerializer
 from rest_framework.exceptions import AuthenticationFailed
